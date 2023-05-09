@@ -1,0 +1,23 @@
+# Etap 1 - budowanie aplikacji
+FROM node:alpine AS build
+
+WORKDIR ./usr/app
+
+COPY ./package.json ./
+
+RUN npm install 
+
+COPY ./app.js ./
+#----------------------------------------------
+
+# Etap 2 - budowanie obrazu końcowego
+FROM node:alpine AS app
+
+WORKDIR /usr/app
+
+COPY --from=build ./usr/app ./
+
+EXPOSE 9002
+
+CMD ["npm", "start"]
+
