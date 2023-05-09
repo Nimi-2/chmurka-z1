@@ -1,9 +1,21 @@
-<h>chmurka-z1<h>
+<h1>chmurka-z1<h1>
   <br>
-  <p>Lab 6<p>
+  <h2>Lab 6<h2>
   W folderze lab6 znajduje się tylko plik Dockerfile, ponieważ buildctl jest za duży. <br>
   Aby całe zd działo należy posiadać bildctl. <br>
+  Plik docker.pdf przedstawia screenshoty z wykonywanego zadania.<br>
   Użyte komendy:<br>
+  buildctl -v // sprawdzenie versji buildctl oraz czy w ogóle go posiadamy<br>
+  docker run --rm --privileged -d --name buildkit moby/buildkit <br>
+  docker ps --filter name=buildkit <br>
+  set BUILDKIT_HOST=docker-container://buildkit  <br>
+  buildctl build --frontend=dockerfile.v0 --local context=. --local dockerfile=. --output type=image,name=docker.io/nimi22/lab:bkit1,push=true <br>
+    //należy pamiętać by wcześniej zalogować się na swojego dockerhuba, w moim przypadku jest to użytkowniki: nimi22 <br>
+   docker run -it docker.io/nimi22/lab:bkit1 <br>
+    Po znaku zachęty # należy wydać komendy: <br>
+    ls <br>
+    cat imo.txt<br>
+    
   
   
   
