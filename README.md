@@ -18,11 +18,12 @@
     <br>
     <h2>Zadania obowiązkowe<h2>
      <h3>Zadanie 1<h3>
-     W folderze e1 znajdują się pliki do zadania 1
+     W folderze e1 znajdują się pliki do zadania 1<br>
+     image.png pokazuje wynik wykonania zadania<br>       
      Użyte komendy: <br>
      docker build -f Dockerfile2 -t zd1 . <br>
      docker run --network host -p 9002:80 --name zd1 zd1<br>
-       ![image](https://github.com/Nimi-2/chmurka-z1/assets/84320149/e5afcbd0-1ae5-4044-80dd-f4a5150d8c91)
+     
 
  ===================================================================================
       Całość została stworzona na systemie Windows
