@@ -15,6 +15,10 @@
     Po znaku zachęty # należy wydać komendy: <br>
     ls <br>
     cat imo.txt<br>
+    <br>
+    <h2>Zadania obowiązkowe<h2>
+      <h3>Zadanie 1<h3>
+        
     
   
   
