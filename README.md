@@ -29,7 +29,15 @@
      Użyte komendy: <br>
      docker build -f Dockerfile2 -t zd1 . <br>
      docker run --network host -p 9002:80 --name zd1 zd1<br>
-     
+     <h3>Zadanie 3<h3>
+     W folderze z3 znajduje się pdf gdzie można zobaczyć wynik 2 komend:
+     docker logs <id kontenera><br>
+     docker history <nazwa kontenera><br>
+     Pokazują między innymi z ilu warst zbudowany jest obraz.<br>
+     Wszystkie komendy do zbudowamnia kontenera jak i obrazu znajdują się przy opisie każdego z zadań.<br>
+     Przykład tych komend:<br>
+     docker build -t nazwa_obrazu . <br>
+     docker run -d --name nazwa_kontenera nazwa_obrazu <br>
 
  ===================================================================================
       Całość została stworzona na systemie Windows
