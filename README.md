@@ -1,7 +1,7 @@
 <h1>chmurka-z1<h1>
   <br>
   <h2>Lab 6<h2>
-  <--------------------------------------------------------------------------------------------->
+    <h2>
   W folderze lab6 znajduje się tylko plik Dockerfile, ponieważ buildctl jest za duży. <br>
   Aby całe zd działo należy posiadać bildctl. <br>
   Plik docker.pdf przedstawia screenshoty z wykonywanego zadania.<br>
@@ -39,8 +39,7 @@
      Przykład tych komend:<br>
      docker build -t nazwa_obrazu . <br>
      docker run -d --name nazwa_kontenera nazwa_obrazu <br>
-
- ===================================================================================
+     <h2>
       Całość została stworzona na systemie Windows
         
         
