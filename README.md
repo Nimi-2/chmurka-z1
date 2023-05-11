@@ -1,5 +1,5 @@
 <h1>chmurka-z1<h1>
-  <h2>Lab 6<h2>
+  <h2>Lab 6</h2>
     <h2>
   W folderze lab6 znajduje się tylko plik Dockerfile, ponieważ buildctl jest za duży. <br>
   Aby całe zd działo należy posiadać bildctl. <br>
