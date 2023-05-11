@@ -18,8 +18,13 @@
     <br>
     <h2>Zadania obowiązkowe<h2>
      <h3>Zadanie 1<h3>
+     W folderze 1 znajdują się pliki do zadania 1.<br>
+     Dodatkowo są tam umieszczone screenshoty z działania aplikacji.<br>
+     Użyte komendy: <br>
+     docker build  -t zz . <br>
+     docker run -d -p 9003:80 --name zz zz<br>
      <h3>Zadanie 2<h3>
-     W folderze e1 znajdują się pliki do zadania 1<br>
+     W folderze e1 znajdują się pliki do zadania 2<br>
      image.png pokazuje wynik wykonania zadania<br>       
      Użyte komendy: <br>
      docker build -f Dockerfile2 -t zd1 . <br>
