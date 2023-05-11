@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "*",
+    "dotenv": "^16.0.3",
+    "os": "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
